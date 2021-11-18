@@ -1,0 +1,46 @@
+.me {
+  color: yellow;
+}
+
+img {
+  max-width: 100%;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background: #fff url('img/laptop.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+  color: yellow;
+}
+
+.jumbotron p {
+  color: #fff;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  background-color: rgba(2, 2, 2, 0.5);
+  color: #fff;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
